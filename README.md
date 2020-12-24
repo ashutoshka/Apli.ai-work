@@ -5,5 +5,5 @@ front page :
 3) Questions,question video preview ,grade video answer, comments  at the middle of the page.
 
 Functionality of the webpage :-
-Candidate can answer the question one by one .Interviewer can give grade and comments on each questions individually which will store in data structure.
-On clicking  the next after  last question the result page will open/display in which a table will display the questions,commenr,and the star rating.
+Question video will preivew ,Candidate can answer the question one by one .Interviewer can give grade and comments on each questions accordingly which will store in data structure.
+On clicking  the next after last question the result page will open/display in which a table will display the questions,commenr,and the star rating.
