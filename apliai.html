@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="apliai.css" />
+    <title>Apli.ai Candidate WebPage</title>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body id="home">
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+    <div>
+      <nav class="navbar navbar-expand-sm bg-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <img src="https://apli.ai/static/apliai/img/Stand%20Different2.png" class="rounded-circle" alt="Cinque Terre" width="50" height="50"> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Aplai.ai </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div >
+      <section class="container">
+        <div class="left-half">
+          <article>
+            <img
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              class="rounded-circle"
+              alt="Cinque Terre"
+              width="236"
+              height="236"
+            />
+            <h1>Candidate Name</h1>
+          </article>
+        </div>
+        <div class="right-half">
+          <div>
+          <section>
+            <div>
+          <article>
+            <h1>Questions</h1>
+            <div class="w3-content w3-display-container">
+              <button
+                class="w3-button w3-black w3-display-left"
+                onclick="plusDivs(-1)"
+              >
+                &#10094;
+              </button>
+              <button
+                class="w3-button-1 w3-black w3-display-right"
+                onclick="plusDivs(1)"
+              >
+                &#10095;
+              </button>
+
+              <iframe
+                class="mySlides"
+                width="852"
+                height="480"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                name="asdad"
+                title="asda"
+                
+              >
+          </iframe>
+
+              <iframe
+                class="mySlides"
+                width="852"
+                height="480"
+                src="https://www.youtube.com/embed/il_t1WVLNxk"
+              ></iframe>
+
+              <iframe
+                class="mySlides"
+                width="852"
+                height="480"
+                src="https://www.youtube.com/embed/t3V5x3wabTo"
+              ></iframe>
+            </div>
+            <div>
+                <div>
+                <h1 style="float: right;">Grade Video Answer</h1>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                  </div>
+                </div>
+                <h1 >Any Comments?</h1>
+    <div>
+      <form method="post" name="myemailform">
+          <div>
+              <textarea class="comment" id="msg" placeholder="type your comment here." name="message" id="needs" required></textarea>
+          </div>
+          <div>
+            <a class="button" href="thankyou.html" >Save</a>
+          </div>
+        </form>
+  </div>
+            </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </section>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
